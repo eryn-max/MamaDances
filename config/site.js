@@ -2,6 +2,8 @@
 // and block `npm run check:strict` (run before any deploy).
 export default {
   domain: "go.mamadances.com",
+  // Meta pixel "MamaDances's Pixel" (ad account act_470740090374093). Not a secret.
+  metaPixelId: "1081343158921496",
   supportEmail: "eryn@mamadances.com",
   timezone: "America/Toronto",
   // Page 1 video per language (YouTube/Vimeo embed URL or an .mp4 in /assets). [CONFIRM]

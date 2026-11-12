@@ -36,7 +36,7 @@ if (!order || !order.clientSecret) {
       if (r.status === "requires_action") {
         const stripe = stripeClient();
         const res = stripe ? await stripe.handleNextAction({ clientSecret: r.clientSecret }) : { error: true };
-        r = res.error || res.paymentIntent?.status !== "succeeded" ? { status: "failed" } : { status: "succeeded", product: r.product };
+        r = res.error || res.paymentIntent?.status !== "succeeded" ? { status: "failed" } : { status: "succeeded", product: r.product, paymentIntentId: r.paymentIntentId };
       }
       if (r.status !== "succeeded") throw new Error("failed");
       const product = r.product || productOf(offerKey, MD.offers);
@@ -44,7 +44,7 @@ if (!order || !order.clientSecret) {
       order.lines = [...(order.lines || []), [product, MD.offers[offerKey].amount]];
       order.total = (order.total || 0) + MD.offers[offerKey].amount;
       session.set("md_order", order);
-      track("Purchase", { value: MD.offers[offerKey].amount / 100, currency: "CAD", content_ids: [product] });
+      track("Purchase", { value: MD.offers[offerKey].amount / 100, currency: "CAD", content_ids: [product], content_type: "product" }, r.paymentIntentId);
       showStatus(status, T.added);
       setTimeout(() => go(order.owned), 700);
     } catch {

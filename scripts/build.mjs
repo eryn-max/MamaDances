@@ -2,7 +2,7 @@
 //   npm run build
 // Env read at build time (all optional for a preview build):
 //   STRIPE_PUBLISHABLE_KEY  pk_test_... or pk_live_... from Eryn's Stripe account
-//   META_PIXEL_ID           Meta pixel for PageView / InitiateCheckout / Purchase
+//   META_PIXEL_ID           overrides config/site.js metaPixelId (PageView / InitiateCheckout / Purchase / Lead)
 // On Vercel production builds (VERCEL_ENV=production) the strict launch check must pass.
 import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
 import { dirname } from "node:path";
@@ -33,7 +33,8 @@ if (pk && !/^pk_(test|live)_[A-Za-z0-9]+$/.test(pk)) {
   console.error("STRIPE_PUBLISHABLE_KEY does not look like a publishable key.");
   process.exit(1);
 }
-const pixel = /^\d{6,20}$/.test(process.env.META_PIXEL_ID || "") ? process.env.META_PIXEL_ID : "";
+const pixelId = process.env.META_PIXEL_ID || site.metaPixelId || "";
+const pixel = /^\d{6,20}$/.test(pixelId) ? pixelId : "";
 
 // ---------- helpers ----------
 const esc = (s) =>
@@ -103,6 +104,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ""}
 ${pixelHead}
 </head>
 <body>
+${pixel ? `<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=${pixel}&ev=PageView&noscript=1"></noscript>` : ""}
 <header class="topbar"><div class="wrap">
   <a class="logo" href="${url("home", lang)}">${logo}</a>
   <nav class="toggle" aria-label="${esc(t.nav.toggleLabel)}">

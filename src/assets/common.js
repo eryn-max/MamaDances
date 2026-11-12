@@ -25,8 +25,18 @@ export function variant() {
   return document.documentElement.getAttribute("data-v") === "b" ? "b" : "a";
 }
 
-export function track(event, data) {
-  try { if (MD.pixel && window.fbq) window.fbq("track", event, data); } catch { /* ignore */ }
+// eventID lets Meta dedupe this browser event with the same event sent by the Conversions API.
+export function track(event, data, eventID) {
+  try { if (MD.pixel && window.fbq) window.fbq("track", event, data, eventID ? { eventID } : undefined); } catch { /* ignore */ }
+}
+
+// Meta browser ids, sent with the order so the Conversions API can match the buyer.
+export function metaIds() {
+  const fbclid = new URLSearchParams(location.search).get("fbclid") || session.get("md_utm")?.fbclid;
+  return {
+    fbp: getCookie("_fbp") || "",
+    fbc: getCookie("_fbc") || (fbclid ? `fb.1.${Date.now()}.${fbclid}` : ""),
+  };
 }
 
 export function money(cents) {

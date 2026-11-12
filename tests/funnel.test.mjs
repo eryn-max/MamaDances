@@ -96,7 +96,8 @@ const front = (over = {}) => ({
 test("checkout: server sets the amount and saves the card", async () => {
   const s = fakeStripe();
   setStripe(s);
-  const r = await checkout({ email: "A@Example.com ", firstName: "Ana", lang: "fr", bumps: ["props17"], checkoutId: "abcdefgh-1", utm: { utm_source: "fb", evil: "x" } });
+  const req = new Request("https://x.test", { headers: { "x-forwarded-for": "1.2.3.4, 5.6.7.8", "user-agent": "UA" } });
+  const r = await checkout({ email: "A@Example.com ", firstName: "Ana", lang: "fr", bumps: ["props17"], checkoutId: "abcdefgh-1", utm: { utm_source: "fb", evil: "x" }, meta: { fbp: "fb.1.1700000000.123", fbc: "javascript:x" } }, req);
   assert.equal(r.amount, 4400);
   const [, p, o] = s.calls.find((c) => c[0] === "pi.create");
   assert.equal(p.amount, 4400);
@@ -105,6 +106,10 @@ test("checkout: server sets the amount and saves the card", async () => {
   assert.equal(p.metadata.items, "kit27,props17");
   assert.equal(p.metadata.utm_source, "fb");
   assert.equal(p.metadata.evil, undefined);
+  assert.equal(p.metadata.fbp, "fb.1.1700000000.123");
+  assert.equal(p.metadata.fbc, undefined);
+  assert.equal(p.metadata.client_ip, "1.2.3.4");
+  assert.equal(p.metadata.client_ua, "UA");
   assert.equal(p.receipt_email, "a@example.com");
   assert.match(o.idempotencyKey, /^md-checkout-abcdefgh-1-/);
 });
@@ -119,7 +124,7 @@ test("upsell: charges the saved card once per offer", async () => {
   const s = fakeStripe({ front: front() });
   setStripe(s);
   const r = await upsell({ clientSecret: "pi_front_secret_abc", offer: "carriers27_upsell" });
-  assert.deepEqual(r, { status: "succeeded", product: "carriers27" });
+  assert.deepEqual(r, { status: "succeeded", product: "carriers27", paymentIntentId: "pi_new" });
   const [, p, o] = s.calls.find((c) => c[0] === "pi.create");
   assert.equal(p.amount, 2700);
   assert.equal(p.payment_method, "pm_1");

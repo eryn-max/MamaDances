@@ -1,6 +1,6 @@
 // Page 1 checkout: modal, 2 order bumps, live total, one Stripe charge.
 // The card is saved (setup_future_usage) so the next pages can add items in one click.
-import { MD, session, variant, track, money, post, stripeClient } from "./common.js";
+import { MD, session, variant, track, money, post, stripeClient, metaIds } from "./common.js";
 import { frontTotal, nextStep } from "./flow.js";
 
 const modal = document.getElementById("checkout");
@@ -50,7 +50,7 @@ function open() {
   mountStripe();
   if (!opened) {
     opened = true;
-    track("InitiateCheckout", { value: frontTotal(bumps(), cfg) / 100, currency: "CAD" });
+    track("InitiateCheckout", { value: frontTotal(bumps(), cfg) / 100, currency: "CAD" }, `ic-${checkoutId}`);
   }
   setTimeout(() => document.getElementById("co-email").focus(), 50);
 }
@@ -99,7 +99,7 @@ form.addEventListener("submit", async (e) => {
     const chosen = bumps();
     const { clientSecret, amount } = await post("/api/checkout", {
       email, firstName, lang: MD.lang, bumps: chosen, variant: variant(),
-      utm: session.get("md_utm") || {}, checkoutId,
+      utm: session.get("md_utm") || {}, checkoutId, meta: metaIds(),
     });
 
     const owned = ["kit27", ...chosen];
@@ -118,7 +118,7 @@ form.addEventListener("submit", async (e) => {
     if (paymentIntent && paymentIntent.status !== "succeeded") throw Object.assign(new Error(T.errors.card), { shown: true });
 
     session.set("md_order", { clientSecret, owned, lang: MD.lang, lines: owned.map((k) => [k, MD.offers[k].amount]), total: amount });
-    track("Purchase", { value: amount / 100, currency: "CAD", content_ids: owned });
+    track("Purchase", { value: amount / 100, currency: "CAD", content_ids: owned, content_type: "product" }, clientSecret.split("_secret_")[0]);
     location.assign(next);
   } catch (err) {
     fieldError("card", true, err.shown ? err.message : MD.t.common.errorGeneric);
