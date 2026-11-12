@@ -29,7 +29,8 @@ Decisions made after the playbooks were written. When this file disagrees with a
 13. **Do not target France.** Ad sets: Quebec (FR) and rest of Canada (EN). Prices are CAD only.
 
 ### Funnel
-14. **Downsell [CONFIRM].** The playbooks define no downsell. To avoid inventing a price, the downsell re-offers an existing product at its existing price: **13 objets / 13 Simple Props, CA$17**, shown only to buyers who skipped bump 1, after they decline the last upsell. Turn it off with `enabled: false` on `props17_downsell` in `config/offers.json`.
+14. **Downsell [CONFIRM].** The playbooks define no downsell. To avoid inventing a price, the downsell re-offers an existing product at its existing price: **10 objets / 10 Props (Parent Child Dance Class), CA$17**, shown only to buyers who skipped bump 1, after they decline the last upsell. Turn it off with `enabled: false` on `props17_downsell` in `config/offers.json`.
 15. **Testimonials** stay hidden until Eryn confirms permission for each one (the page renders the section only when the list is not empty).
 16. **Video language** (Operator Playbook 5.1, Issue 2) is still open. The FAQ answer about language is marked [CONFIRM] and the build lists it.
 17. **Photo and logo** added: `src/assets/img/eryn.jpg` (Eryn) and `src/assets/img/logo-sm.png` (one bilingual MamaDances / MamanDanse logo, used in both languages). Photographer credit still to confirm.
+19. **Bump 1 renamed** (Wali): *10 objets pour votre cours de danse parent-enfant* / *10 Props to Use in Your Parent Child Dance Class*, CA$17. Same name on the props downsell. Bump 2 pitch: *2 simple choreographies to teach in your classes*.

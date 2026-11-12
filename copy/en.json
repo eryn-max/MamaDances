@@ -20,7 +20,7 @@
   },
   "names": {
     "kit27": "Your First Mom and Baby Dance Class",
-    "props17": "13 Simple Props for a Magic Class",
+    "props17": "10 Props to Use in Your Parent Child Dance Class",
     "carriers27": "Dancing With Babies in Carriers",
     "season97": "A Full Season of Classes"
   },
@@ -141,8 +141,8 @@
     "card": "Payment",
     "bumpArrow": "Yes, add this",
     "bump1": {
-      "headline": "13 Simple Props for a Magic Class",
-      "pitch": "A PDF guide. Silk scarves, egg shakers, ribbons, hula hoops and 9 more props. For each prop, I show you how to use it in class. Just CA$17."
+      "headline": "10 Props to Use in Your Parent Child Dance Class",
+      "pitch": "A PDF guide. Silk scarves, egg shakers, ribbons, hula hoops and 6 more props. For each prop, I show you how to use it in class. Just CA$17."
     },
     "bump2": {
       "headline": "Watch, Learn and Teach Dancing With Babies in Carriers",
@@ -206,12 +206,12 @@
     ],
     "itemsTitle": "You get",
     "items": [
-      "1 PDF guide: 13 simple props for a magic class",
+      "1 PDF guide: 10 props to use in your Parent Child Dance Class",
       "For each prop, how to use it in class"
     ],
     "steps": "Read the guide. Pick 2 props. Add them to your class.",
     "price": "CA$17",
-    "yes": "Yes, add the 13 props for CA$17",
+    "yes": "Yes, add the 10 props for CA$17",
     "yesNote": "One click, the same card.",
     "no": "No thanks, take me to my class"
   },

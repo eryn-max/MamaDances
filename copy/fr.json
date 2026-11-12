@@ -20,7 +20,7 @@
   },
   "names": {
     "kit27": "Votre premier cours maman-bébé",
-    "props17": "13 objets simples pour un cours magique",
+    "props17": "10 objets pour votre cours de danse parent-enfant",
     "carriers27": "Dansez avec bébé en porte-bébé",
     "season97": "Une saison complète"
   },
@@ -141,8 +141,8 @@
     "card": "Paiement",
     "bumpArrow": "Oui, j'ajoute ceci",
     "bump1": {
-      "headline": "13 objets simples pour un cours magique",
-      "pitch": "Un guide PDF. Foulards de soie, maracas, rubans, cerceaux et 9 autres objets. Pour chaque objet, je vous montre comment l'utiliser en cours. Seulement 17 $."
+      "headline": "10 objets pour votre cours de danse parent-enfant",
+      "pitch": "Un guide PDF. Foulards de soie, maracas, rubans, cerceaux et 6 autres objets. Pour chaque objet, je vous montre comment l'utiliser en cours. Seulement 17 $."
     },
     "bump2": {
       "headline": "Regardez, apprenez et dansez avec bébé en porte-bébé",
@@ -206,12 +206,12 @@
     ],
     "itemsTitle": "Vous recevez",
     "items": [
-      "1 guide PDF : 13 objets simples pour un cours magique",
+      "1 guide PDF : 10 objets à utiliser dans votre cours de danse parent-enfant",
       "Pour chaque objet, comment l'utiliser en cours"
     ],
     "steps": "Lisez le guide. Choisissez 2 objets. Ajoutez-les à votre cours.",
     "price": "17 $ CA",
-    "yes": "Oui, j'ajoute les 13 objets, 17 $",
+    "yes": "Oui, j'ajoute les 10 objets, 17 $",
     "yesNote": "En un clic, avec la même carte.",
     "no": "Non merci, je vais à mon cours"
   },
