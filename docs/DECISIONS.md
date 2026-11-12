@@ -5,7 +5,7 @@ Decisions made after the playbooks were written. When this file disagrees with a
 ## 2026-11-12 (Wali, build session)
 
 ### Stripe
-1. **Wrong account.** The Stripe test account connected so far (`acct_1TlGIk…`) is **not Eryn's**. Create nothing in it. Wait for access to Eryn's own account. Its publishable key (`pk_test_51TlGIk…`) is not used either.
+1. **Stripe account (corrected).** `acct_1TlGIk…` **is Eryn's account** (Wali, 2026-11-12). The earlier note calling it the wrong account is withdrawn. The LeadConnector products already in it stay untouched; the funnel charges amounts from `config/offers.js`. Test keys are set on the Vercel preview only.
 2. **Tax.** No GST/QST registrations yet. Stripe Tax stays on but collects nothing until Eryn gives her real numbers.
 3. **Upsell 2 (Une saison complète, CA$97).** Create the price in Eryn's account, but keep it **inactive**. In the funnel, `season97` stays `enabled: false` in `config/offers.json`, so buyers skip that page.
 4. **Statement descriptor:** `MAMANDANSE MAMADANCES` (21 characters, under Stripe's 22 limit). Set in Eryn's Stripe public details.
