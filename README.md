@@ -14,6 +14,7 @@ The CA$27 first-class kit funnel for teachers, in French (default) and English.
 
 - Words: `copy/fr.json`, `copy/en.json`. Offers and prices: `config/offers.js`. Photos, video, logo: `config/site.js`.
 - Server: `api/checkout.js`, `api/upsell.js`, `api/stripe-webhook.js`, `api/apply.js` (Vercel Functions).
+- Tracking: Meta pixel (browser) + Conversions API (`lib/capi.js`, from the Stripe webhook). Both use the Stripe payment id as event id, so each sale counts once.
 - Rules for the AI operator: `CLAUDE.md`. Business facts: `docs/`. Latest decisions: `docs/DECISIONS.md`. Setup: `docs/SETUP.md`.
 
 ```bash

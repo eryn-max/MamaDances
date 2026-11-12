@@ -174,7 +174,7 @@ test("webhook: saves pending_access order, notifies once, Kajabi slot skipped", 
   const event = { type: "payment_intent.succeeded", data: { object: { ...front(), amount: 4400, amount_received: 4400, currency: "cad", metadata: { ...front().metadata, items: "kit27,props17" } } } };
 
   const r1 = await handleStripeEvent(event, fetchImpl);
-  assert.deepEqual(r1, { saved: true, notified: true });
+  assert.deepEqual(r1, { saved: true, notified: true, capi: false });
   assert.equal(sent.length, 1);
   assert.match(sent[0][1].text, /Grant offer: MD Kit 27/);
   assert.match(sent[0][1].text, /md-props17, md-lang-fr/);
@@ -215,4 +215,28 @@ test("apply: honeypot and validation", async () => {
   const r = await apply({ name: "Ana", email: "a@b.co", city: "Montréal", teach: "Danse", program: "both", lang: "fr" }, async () => ({ ok: true }));
   assert.deepEqual(r, { ok: true });
   setDb(undefined);
+});
+
+test("CAPI: purchase event matches the pixel event id and hashes personal data", async () => {
+  const { purchaseEvent, sendEvents } = await import("../lib/capi.js");
+  const pi = { ...front(), amount: 4400, amount_received: 4400, currency: "cad",
+    metadata: { ...front().metadata, items: "kit27,props17", fbp: "fb.1.1.2", client_ip: "1.2.3.4", client_ua: "UA" } };
+  const e = purchaseEvent(pi);
+  assert.equal(e.event_id, "pi_front");
+  assert.equal(e.custom_data.value, 44);
+  assert.equal(e.custom_data.currency, "CAD");
+  assert.deepEqual(e.custom_data.content_ids, ["kit27", "props17"]);
+  assert.match(e.user_data.em[0], /^[a-f0-9]{64}$/);
+  assert.ok(!JSON.stringify(e).includes("a@example.com"));
+  assert.equal(e.user_data.fbp, "fb.1.1.2");
+
+  assert.equal(await sendEvents([e], async () => assert.fail("no token, no call")), false);
+  process.env.META_CAPI_TOKEN = "test-token";
+  process.env.META_TEST_EVENT_CODE = "TEST123";
+  let sent;
+  assert.equal(await sendEvents([e], async (url, init) => ((sent = [url, JSON.parse(init.body)]), { ok: true })), true);
+  assert.match(sent[0], /graph\.facebook\.com\/v21\.0\/1081343158921496\/events/);
+  assert.equal(sent[1].test_event_code, "TEST123");
+  delete process.env.META_CAPI_TOKEN;
+  delete process.env.META_TEST_EVENT_CODE;
 });
