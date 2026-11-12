@@ -1,0 +1,307 @@
+{
+  "_confirm": [
+    "home.sub: 30-day guarantee (terms to confirm with Eryn)",
+    "home.how.steps.0: total video runtime, under one hour?",
+    "home.faq.items.2 + thanks: access by email within 24 hours (manual access in v1)",
+    "home.faq.items.3: language of the videos (Operator Playbook 5.1, issue 2)",
+    "home.faq.items.5 + thanks.next: CA$27 credit toward certification",
+    "season97: the CA$97 offer (turned off until Eryn says yes)",
+    "props17_downsell: the last offer page (props at CA$17)",
+    "apply: price and 2027 dates of the Montreal training",
+    "terms + privacy: Eryn to read and approve"
+  ],
+  "meta": {
+    "lang": "en-CA",
+    "siteName": "MamaDances",
+    "title": "Your First Mom and Baby Dance Class | MamaDances",
+    "description": "I will show you, step by step, how to teach your first mom and baby class. 4 short videos, 1 class plan, 1 playlist, 1 checklist. CA$27."
+  },
+  "nav": {
+    "logoAlt": "MamaDances, home",
+    "toggleLabel": "Change language"
+  },
+  "names": {
+    "kit27": "Your First Mom and Baby Dance Class",
+    "props17": "13 Simple Props for a Magic Class",
+    "carriers27": "Dancing With Babies in Carriers",
+    "season97": "A Full Season of Classes"
+  },
+  "common": {
+    "currency": "CA$",
+    "guarantee": "30-day money-back guarantee. Write to me and I will refund you in full.",
+    "footerEarnings": "Results depend on each person. No income is promised.",
+    "footerSupport": "A question? Write to me:",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "rights": "MamaDances / MamanDanse is a registered trademark.",
+    "loading": "One moment...",
+    "errorGeneric": "Oops. Something did not work. Try again, or write to me.",
+    "continue": "Continue",
+    "step": "Step",
+    "of": "of"
+  },
+  "home": {
+    "pill": "For dance teachers, yoga teachers and early childhood educators",
+    "headlineA": "Make money with your dance. Teach your first mom and baby class, step by step.",
+    "headlineB": "Is your studio empty in the morning? Fill it with moms and their babies.",
+    "sub": "I have taught these classes since 2006. I show you everything for your first class. Only CA$27, with a 30-day money-back guarantee.",
+    "video": {
+      "tapForSound": "Tap for sound",
+      "placeholder": "Eryn's video is coming soon."
+    },
+    "buy": {
+      "title": "What you get",
+      "coverTitle": "Your First Mom and Baby Dance Class",
+      "coverSub": "The MamaDances kit",
+      "items": [
+        "4 short videos: principles, holding babies, babywearing, your first class",
+        "1 complete class plan, from hello to good-bye",
+        "1 music playlist",
+        "1 checklist: the room and safety"
+      ],
+      "price": "CA$27",
+      "button": "Get my first class for CA$27"
+    },
+    "how": {
+      "title": "How it works",
+      "steps": [
+        "Watch the 4 videos (under one hour).",
+        "Print your class plan and playlist.",
+        "Teach your first class."
+      ]
+    },
+    "forYou": {
+      "title": "This is for you if...",
+      "items": [
+        "You teach dance, yoga or movement.",
+        "You work with young families.",
+        "You own a studio and want a new class.",
+        "You are a mom who dances and wants a new path."
+      ]
+    },
+    "eryn": {
+      "title": "My name is Eryn",
+      "photoAlt": "Eryn Dace Trudell, founder of MamaDances",
+      "lines": [
+        "I studied dance at Juilliard.",
+        "I did my Master of Dance at UQAM.",
+        "I have taught mom and baby classes since 2006.",
+        "I am a mother of two daughters."
+      ],
+      "story": "After my daughter was born, I looked for a joyful way to bond with her. I found none. So I built one, with dance."
+    },
+    "testimonials": {
+      "title": "What teachers say",
+      "items": []
+    },
+    "stats": [
+      "Since 2006",
+      "Training teachers since 2013",
+      "Canada, Japan, Brazil",
+      "French and English"
+    ],
+    "faq": {
+      "title": "Your questions",
+      "items": [
+        {
+          "q": "Do I need experience with babies?",
+          "a": "No. You already know how to move and teach. I show you how to hold babies, step by step."
+        },
+        {
+          "q": "Is it safe?",
+          "a": "Yes. One full video is about holds. The checklist helps you set up a safe room."
+        },
+        {
+          "q": "How do I get it?",
+          "a": "You get an email from Kajabi within 24 hours. You log in with the same email."
+        },
+        {
+          "q": "Is it in French or English?",
+          "a": "The page, the class plan and the checklist come in French and English. I will confirm the video language before launch."
+        },
+        {
+          "q": "What if it is not for me?",
+          "a": "Write to me within 30 days. I will refund you in full."
+        },
+        {
+          "q": "Can I become certified later?",
+          "a": "Yes. My full training leads to a certificate. Your CA$27 is credited toward it."
+        }
+      ]
+    },
+    "final": {
+      "title": "Ready for your first class?",
+      "button": "Get my first class for CA$27"
+    }
+  },
+  "checkout": {
+    "title": "Your First Mom and Baby Dance Class",
+    "close": "Close",
+    "email": "Your email",
+    "emailHelp": "Your access is sent to this email.",
+    "firstName": "Your first name",
+    "card": "Payment",
+    "bumpArrow": "Yes, add this",
+    "bump1": {
+      "headline": "13 Simple Props for a Magic Class",
+      "pitch": "A PDF guide. Silk scarves, egg shakers, ribbons, hula hoops and 9 more props. For each prop, I show you how to use it in class. Just CA$17."
+    },
+    "bump2": {
+      "headline": "Watch, Learn and Teach Dancing With Babies in Carriers",
+      "pitch": "2 videos. How to dance with babies in carriers. Then a full dance, ready to teach. Just CA$27."
+    },
+    "kitLine": "Your First Mom and Baby Dance Class",
+    "total": "Total",
+    "taxNote": "Prices in Canadian dollars.",
+    "pay": "Pay",
+    "paying": "Paying...",
+    "secure": "Secure payment by Stripe. Your card is saved for one-click add-ons.",
+    "errors": {
+      "email": "Enter a valid email.",
+      "firstName": "Enter your first name.",
+      "card": "Your card did not work. Try another card."
+    },
+    "notConfigured": "Payment is not connected yet. This page is a preview."
+  },
+  "carriers27_upsell": {
+    "title": "Thank you! Your first class is yours.",
+    "lead": "Before you go, one thing.",
+    "body": [
+      "Moms love to dance with baby in the carrier.",
+      "It is calm, it is close, and it is full of joy."
+    ],
+    "itemsTitle": "You get",
+    "items": [
+      "1 video: how to dance with babies in carriers",
+      "1 video: a full dance you can teach"
+    ],
+    "steps": "Watch it, learn it, then teach it.",
+    "price": "CA$27",
+    "yes": "Yes, add the carrier class for CA$27",
+    "yesNote": "One click, the same card.",
+    "no": "No thanks, skip this"
+  },
+  "season97": {
+    "title": "Your first class is ready.",
+    "lead": "Now think about next week. And the week after.",
+    "body": [
+      "With a full season, you never start from a blank page."
+    ],
+    "itemsTitle": "You get",
+    "items": [
+      "All my class plans",
+      "My music",
+      "My playlists"
+    ],
+    "steps": "If one class is enough for now, that is perfect.",
+    "price": "CA$97",
+    "yes": "Yes, I want the full season for CA$97",
+    "yesNote": "One click, the same card.",
+    "no": "No thanks"
+  },
+  "props17_downsell": {
+    "title": "One last idea for your class.",
+    "lead": "Babies love props.",
+    "body": [
+      "A scarf that floats. A ribbon that dances. A hoop to gather around.",
+      "With simple props, your class feels like magic."
+    ],
+    "itemsTitle": "You get",
+    "items": [
+      "1 PDF guide: 13 simple props for a magic class",
+      "For each prop, how to use it in class"
+    ],
+    "steps": "Read the guide. Pick 2 props. Add them to your class.",
+    "price": "CA$17",
+    "yes": "Yes, add the 13 props for CA$17",
+    "yesNote": "One click, the same card.",
+    "no": "No thanks, take me to my class"
+  },
+  "upsell": {
+    "processing": "Adding...",
+    "added": "Added. Thank you!",
+    "failed": "The payment did not work. You were not charged. You can go on.",
+    "noOrder": "Your order is in. Go on to your welcome page."
+  },
+  "thanks": {
+    "title": "Thank you, and welcome!",
+    "lead": "Here is what happens now.",
+    "steps": [
+      "Open your email. Check your spam folder too.",
+      "Your access comes by email within 24 hours.",
+      "Log in to Kajabi with the same email.",
+      "Watch the first video today."
+    ],
+    "kajabiButton": "Go to my class in Kajabi",
+    "note": "When you teach your first class, write to me. I want to hear all about it.",
+    "nextTitle": "What comes next?",
+    "next": [
+      {
+        "title": "The full online training",
+        "body": "My training leads to a certificate. Your CA$27 is credited toward it. Write to me to learn more."
+      },
+      {
+        "title": "The training in Montreal",
+        "body": "Learn with me in the studio, over 5 days. By application, then a call with me."
+      }
+    ],
+    "applyButton": "Apply for Montreal",
+    "orderSummary": "Your order"
+  },
+  "apply": {
+    "title": "Learn with me, in Montreal",
+    "intro": [
+      "Some teachers want to learn with me in the studio. If that is you, welcome.",
+      "In Montreal, I teach each program over 5 days. That is 35 hours in the studio together.",
+      "Mom and Baby, Parent and Child, or both.",
+      "You leave with a certificate, and your name in the directory on the MamanDanse site."
+    ],
+    "howTitle": "How it works",
+    "how": [
+      "Fill in the short form below.",
+      "I read your application.",
+      "We talk by phone or video.",
+      "Then we decide together."
+    ],
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "city": "Your city",
+      "teach": "What do you teach today?",
+      "program": "Which program do you want?",
+      "programOptions": {
+        "mom-baby": "Mom and Baby",
+        "parent-child": "Parent and Child",
+        "both": "Both"
+      },
+      "why": "Why this class, for you?",
+      "dates": "When could you come to Montreal?",
+      "submit": "Send my application",
+      "sending": "Sending...",
+      "sent": "Thank you! I got your application. I will write to you soon to book a call.",
+      "privacy": "I keep your answers for your application only."
+    }
+  },
+  "terms": {
+    "title": "Terms",
+    "body": [
+      "These products are sold by MamaDances / MamanDanse, in Montreal, Quebec.",
+      "Prices are in Canadian dollars.",
+      "Your access comes by email within 24 hours, in Kajabi.",
+      "30-day money-back guarantee. Write to me within 30 days of your purchase. I will refund you in full.",
+      "The videos and documents are for your own use. Please do not share them.",
+      "The certificate, the right to use the MamaDances trademark and the membership are part of the full training only.",
+      "Results depend on each person. No income is promised."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy",
+    "body": [
+      "I collect your name, your email and your purchase to give you access to your class.",
+      "Payment goes through Stripe. I never see your card number.",
+      "Your class access goes through Kajabi.",
+      "I never sell your data.",
+      "To see, change or delete your data, write to me."
+    ]
+  }
+}

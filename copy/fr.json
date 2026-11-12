@@ -1,0 +1,307 @@
+{
+  "_confirm": [
+    "home.sub: garantie 30 jours (conditions à confirmer avec Eryn)",
+    "home.how.steps.0: durée totale des vidéos, moins d'une heure ?",
+    "home.faq.items.2 + thanks: accès par courriel en moins de 24 heures (accès manuel en v1)",
+    "home.faq.items.3: langue des vidéos (Operator Playbook 5.1, problème 2)",
+    "home.faq.items.5 + thanks.next: crédit de 27 $ sur la certification",
+    "season97: offre à 97 $ (désactivée tant qu'Eryn ne dit pas oui)",
+    "props17_downsell: la page d'offre finale (objets à 17 $)",
+    "apply: prix et dates 2027 de la formation à Montréal",
+    "terms + privacy: textes à relire par Eryn"
+  ],
+  "meta": {
+    "lang": "fr-CA",
+    "siteName": "MamanDanse",
+    "title": "Votre premier cours maman-bébé | MamanDanse",
+    "description": "Je vous montre, étape par étape, comment donner votre premier cours maman-bébé. 4 courtes vidéos, 1 plan de cours, 1 liste de musique, 1 aide-mémoire. 27 $ CA."
+  },
+  "nav": {
+    "logoAlt": "MamanDanse, accueil",
+    "toggleLabel": "Changer de langue"
+  },
+  "names": {
+    "kit27": "Votre premier cours maman-bébé",
+    "props17": "13 objets simples pour un cours magique",
+    "carriers27": "Dansez avec bébé en porte-bébé",
+    "season97": "Une saison complète"
+  },
+  "common": {
+    "currency": "$ CA",
+    "guarantee": "Satisfaite ou remboursée 30 jours. Écrivez-moi, je vous rembourse au complet.",
+    "footerEarnings": "Les résultats dépendent de chaque personne. Aucun revenu n'est promis.",
+    "footerSupport": "Une question ? Écrivez-moi :",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "rights": "MamanDanse / MamaDances est une marque déposée.",
+    "loading": "Un instant...",
+    "errorGeneric": "Oups. Quelque chose n'a pas marché. Réessayez, ou écrivez-moi.",
+    "continue": "Continuer",
+    "step": "Étape",
+    "of": "sur"
+  },
+  "home": {
+    "pill": "Pour les profs de danse, de yoga et les animatrices en petite enfance",
+    "headlineA": "Gagnez de l'argent avec votre danse. Donnez votre premier cours maman-bébé, étape par étape.",
+    "headlineB": "Votre studio est vide le matin ? Remplissez-le avec des mamans et leurs bébés.",
+    "sub": "Je donne ces cours depuis 2006. Je vous montre tout ce qu'il faut pour votre premier cours. Seulement 27 $ CA, satisfaite ou remboursée 30 jours.",
+    "video": {
+      "tapForSound": "Touchez pour le son",
+      "placeholder": "La vidéo d'Eryn arrive bientôt."
+    },
+    "buy": {
+      "title": "Ce que vous recevez",
+      "coverTitle": "Votre premier cours maman-bébé",
+      "coverSub": "Le kit de MamanDanse",
+      "items": [
+        "4 courtes vidéos : principes, tenir bébé, porte-bébé, votre premier cours",
+        "1 plan de cours complet, du bonjour à l'au revoir",
+        "1 liste de musique",
+        "1 aide-mémoire : la salle et la sécurité"
+      ],
+      "price": "27 $ CA",
+      "button": "Je veux mon premier cours, 27 $"
+    },
+    "how": {
+      "title": "Comment ça marche",
+      "steps": [
+        "Regardez les 4 vidéos (moins d'une heure).",
+        "Imprimez votre plan de cours et votre liste de musique.",
+        "Donnez votre premier cours."
+      ]
+    },
+    "forYou": {
+      "title": "C'est pour vous si...",
+      "items": [
+        "Vous enseignez la danse, le yoga ou le mouvement.",
+        "Vous travaillez avec de jeunes familles.",
+        "Vous avez un studio et voulez un nouveau cours.",
+        "Vous êtes une maman qui danse et voulez un nouveau chemin."
+      ]
+    },
+    "eryn": {
+      "title": "Je m'appelle Eryn",
+      "photoAlt": "Eryn Dace Trudell, fondatrice de MamanDanse",
+      "lines": [
+        "J'ai étudié la danse à Juilliard.",
+        "J'ai fait ma maîtrise en danse à l'UQAM.",
+        "Je donne des cours maman-bébé depuis 2006.",
+        "Je suis maman de deux filles."
+      ],
+      "story": "Après la naissance de ma fille, je cherchais une façon joyeuse de créer un lien avec elle. Je n'en ai pas trouvé. Alors je l'ai créée, avec la danse."
+    },
+    "testimonials": {
+      "title": "Ce que disent les profs",
+      "items": []
+    },
+    "stats": [
+      "Depuis 2006",
+      "Formatrice de profs depuis 2013",
+      "Canada, Japon, Brésil",
+      "Français et anglais"
+    ],
+    "faq": {
+      "title": "Vos questions",
+      "items": [
+        {
+          "q": "Dois-je avoir de l'expérience avec les bébés ?",
+          "a": "Non. Vous savez déjà bouger et enseigner. Je vous montre comment tenir bébé, pas à pas."
+        },
+        {
+          "q": "Est-ce sécuritaire ?",
+          "a": "Oui. Une vidéo entière porte sur les prises. L'aide-mémoire vous aide à préparer une salle sûre."
+        },
+        {
+          "q": "Comment je reçois mon cours ?",
+          "a": "Vous recevez un courriel de Kajabi en moins de 24 heures. Vous vous connectez avec le même courriel."
+        },
+        {
+          "q": "C'est en français ou en anglais ?",
+          "a": "La page, le plan et l'aide-mémoire sont en français et en anglais. Je confirme la langue des vidéos avant le lancement."
+        },
+        {
+          "q": "Et si ce n'est pas pour moi ?",
+          "a": "Écrivez-moi dans les 30 jours. Je vous rembourse au complet."
+        },
+        {
+          "q": "Puis-je être certifiée plus tard ?",
+          "a": "Oui. Ma formation complète mène à un certificat. Vos 27 $ sont crédités sur la formation."
+        }
+      ]
+    },
+    "final": {
+      "title": "Prête pour votre premier cours ?",
+      "button": "Je veux mon premier cours, 27 $"
+    }
+  },
+  "checkout": {
+    "title": "Votre premier cours maman-bébé",
+    "close": "Fermer",
+    "email": "Votre courriel",
+    "emailHelp": "Votre accès arrive à ce courriel.",
+    "firstName": "Votre prénom",
+    "card": "Paiement",
+    "bumpArrow": "Oui, j'ajoute ceci",
+    "bump1": {
+      "headline": "13 objets simples pour un cours magique",
+      "pitch": "Un guide PDF. Foulards de soie, maracas, rubans, cerceaux et 9 autres objets. Pour chaque objet, je vous montre comment l'utiliser en cours. Seulement 17 $."
+    },
+    "bump2": {
+      "headline": "Regardez, apprenez et dansez avec bébé en porte-bébé",
+      "pitch": "2 vidéos. Comment danser avec bébé en porte-bébé. Puis une chorégraphie complète, prête à enseigner. Seulement 27 $."
+    },
+    "kitLine": "Votre premier cours maman-bébé",
+    "total": "Total",
+    "taxNote": "Prix en dollars canadiens.",
+    "pay": "Payer",
+    "paying": "Paiement en cours...",
+    "secure": "Paiement sécurisé par Stripe. Votre carte est gardée pour un ajout en un clic.",
+    "errors": {
+      "email": "Entrez un courriel valide.",
+      "firstName": "Entrez votre prénom.",
+      "card": "Votre carte n'a pas marché. Essayez une autre carte."
+    },
+    "notConfigured": "Le paiement n'est pas encore branché. Cette page est un aperçu."
+  },
+  "carriers27_upsell": {
+    "title": "Merci ! Votre premier cours est à vous.",
+    "lead": "Avant de partir, une chose.",
+    "body": [
+      "Les mamans adorent danser avec bébé dans le porte-bébé.",
+      "C'est calme, c'est proche, et c'est plein de joie."
+    ],
+    "itemsTitle": "Vous recevez",
+    "items": [
+      "1 vidéo : comment danser avec bébé en porte-bébé",
+      "1 vidéo : une chorégraphie complète à enseigner"
+    ],
+    "steps": "Regardez, apprenez, puis enseignez-la.",
+    "price": "27 $ CA",
+    "yes": "Oui, j'ajoute le porte-bébé, 27 $",
+    "yesNote": "En un clic, avec la même carte.",
+    "no": "Non merci, je passe"
+  },
+  "season97": {
+    "title": "Votre premier cours est prêt.",
+    "lead": "Maintenant, pensez à la semaine prochaine. Et à la semaine d'après.",
+    "body": [
+      "Avec une saison complète, vous ne partez jamais d'une page blanche."
+    ],
+    "itemsTitle": "Vous recevez",
+    "items": [
+      "Tous mes plans de cours",
+      "Ma musique",
+      "Mes listes de musique"
+    ],
+    "steps": "Si un cours vous suffit pour l'instant, c'est parfait.",
+    "price": "97 $ CA",
+    "yes": "Oui, je veux la saison complète, 97 $",
+    "yesNote": "En un clic, avec la même carte.",
+    "no": "Non merci"
+  },
+  "props17_downsell": {
+    "title": "Une dernière idée pour votre cours.",
+    "lead": "Les bébés adorent les objets.",
+    "body": [
+      "Un foulard qui vole. Un ruban qui danse. Un cerceau pour se rassembler.",
+      "Avec des objets simples, votre cours devient magique."
+    ],
+    "itemsTitle": "Vous recevez",
+    "items": [
+      "1 guide PDF : 13 objets simples pour un cours magique",
+      "Pour chaque objet, comment l'utiliser en cours"
+    ],
+    "steps": "Lisez le guide. Choisissez 2 objets. Ajoutez-les à votre cours.",
+    "price": "17 $ CA",
+    "yes": "Oui, j'ajoute les 13 objets, 17 $",
+    "yesNote": "En un clic, avec la même carte.",
+    "no": "Non merci, je vais à mon cours"
+  },
+  "upsell": {
+    "processing": "Ajout en cours...",
+    "added": "C'est ajouté. Merci !",
+    "failed": "Le paiement n'a pas marché. Rien n'a été facturé. Vous pouvez continuer.",
+    "noOrder": "Votre commande est bien reçue. Continuez vers votre page de bienvenue."
+  },
+  "thanks": {
+    "title": "Merci, et bienvenue !",
+    "lead": "Voici la suite.",
+    "steps": [
+      "Ouvrez vos courriels. Regardez aussi dans les indésirables.",
+      "Votre accès arrive par courriel en moins de 24 heures.",
+      "Connectez-vous à Kajabi avec le même courriel.",
+      "Regardez la première vidéo aujourd'hui."
+    ],
+    "kajabiButton": "Aller à mon cours dans Kajabi",
+    "note": "Quand vous donnerez votre premier cours, écrivez-moi. Je veux tout savoir.",
+    "nextTitle": "Et après ?",
+    "next": [
+      {
+        "title": "La formation complète en ligne",
+        "body": "Ma formation mène à un certificat. Vos 27 $ sont crédités sur la formation. Écrivez-moi pour en savoir plus."
+      },
+      {
+        "title": "La formation à Montréal",
+        "body": "Apprenez avec moi en studio, sur 5 jours. Sur demande, puis un appel avec moi."
+      }
+    ],
+    "applyButton": "Faire une demande pour Montréal",
+    "orderSummary": "Votre commande"
+  },
+  "apply": {
+    "title": "Apprendre avec moi, à Montréal",
+    "intro": [
+      "Certaines profs veulent apprendre avec moi, en studio. Si c'est votre cas, bienvenue.",
+      "À Montréal, j'enseigne chaque programme sur 5 jours. C'est 35 heures en studio, ensemble.",
+      "Maman et bébé, parent et enfant, ou les deux.",
+      "Vous repartez avec un certificat, et votre nom dans le répertoire du site MamanDanse."
+    ],
+    "howTitle": "Comment ça marche",
+    "how": [
+      "Remplissez le court formulaire ci-dessous.",
+      "Je lis votre demande.",
+      "Nous parlons au téléphone ou en vidéo.",
+      "Ensuite, nous décidons ensemble."
+    ],
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre courriel",
+      "city": "Votre ville",
+      "teach": "Qu'enseignez-vous aujourd'hui ?",
+      "program": "Quel programme vous intéresse ?",
+      "programOptions": {
+        "mom-baby": "Maman et bébé",
+        "parent-child": "Parent et enfant",
+        "both": "Les deux"
+      },
+      "why": "Pourquoi ce cours, pour vous ?",
+      "dates": "Quand pourriez-vous venir à Montréal ?",
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours...",
+      "sent": "Merci ! J'ai bien reçu votre demande. Je vous écris bientôt pour planifier un appel.",
+      "privacy": "Je garde vos réponses pour votre demande seulement."
+    }
+  },
+  "terms": {
+    "title": "Conditions",
+    "body": [
+      "Ces produits sont vendus par MamanDanse / MamaDances, à Montréal, au Québec.",
+      "Les prix sont en dollars canadiens.",
+      "Vous recevez votre accès par courriel en moins de 24 heures, dans Kajabi.",
+      "Satisfaite ou remboursée 30 jours. Écrivez-moi dans les 30 jours suivant votre achat. Je vous rembourse au complet.",
+      "Les vidéos et les documents sont pour votre usage personnel. Merci de ne pas les partager.",
+      "La certification, le droit d'utiliser la marque MamanDanse et l'adhésion font partie de la formation complète seulement.",
+      "Les résultats dépendent de chaque personne. Aucun revenu n'est promis."
+    ]
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "body": [
+      "Je recueille votre nom, votre courriel et votre achat pour vous donner accès à votre cours.",
+      "Le paiement passe par Stripe. Je ne vois jamais votre numéro de carte.",
+      "Votre accès au cours passe par Kajabi.",
+      "Je ne vends jamais vos données.",
+      "Pour voir, changer ou effacer vos données, écrivez-moi."
+    ]
+  }
+}
