@@ -21,7 +21,7 @@
   "names": {
     "kit27": "Your First Mom and Baby Dance Class",
     "props17": "10 Props to Use in Your Parent Child Dance Class",
-    "carriers27": "Dancing With Babies in Carriers",
+    "carriers27": "Two Simple Choreographies to Teach in Your Mom and Baby Dance Class",
     "season97": "A Full Season of Classes"
   },
   "common": {
@@ -145,8 +145,8 @@
       "pitch": "A PDF guide. Silk scarves, egg shakers, ribbons, hula hoops and 6 more props. For each prop, I show you how to use it in class. Just CA$17."
     },
     "bump2": {
-      "headline": "Watch, Learn and Teach Dancing With Babies in Carriers",
-      "pitch": "2 simple choreographies to teach in your classes. With baby in a carrier. Just CA$27."
+      "headline": "Two Simple Choreographies to Teach in Your Mom and Baby Dance Class",
+      "pitch": "2 videos, with baby in a carrier. Watch them, learn them, then teach them. Just CA$27."
     },
     "kitLine": "Your First Mom and Baby Dance Class",
     "total": "Total",
@@ -170,12 +170,12 @@
     ],
     "itemsTitle": "You get",
     "items": [
-      "1 video: how to dance with babies in carriers",
-      "1 video: a full dance you can teach"
+      "2 simple choreographies to teach in your mom and baby class",
+      "With baby in a carrier"
     ],
-    "steps": "Watch it, learn it, then teach it.",
+    "steps": "Watch them, learn them, then teach them.",
     "price": "CA$27",
-    "yes": "Yes, add the carrier class for CA$27",
+    "yes": "Yes, add the 2 choreographies for CA$27",
     "yesNote": "One click, the same card.",
     "no": "No thanks, skip this"
   },

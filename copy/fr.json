@@ -21,7 +21,7 @@
   "names": {
     "kit27": "Votre premier cours maman-bébé",
     "props17": "10 objets pour votre cours de danse parent-enfant",
-    "carriers27": "Dansez avec bébé en porte-bébé",
+    "carriers27": "Deux chorégraphies simples à enseigner dans votre cours de danse maman-bébé",
     "season97": "Une saison complète"
   },
   "common": {
@@ -145,8 +145,8 @@
       "pitch": "Un guide PDF. Foulards de soie, maracas, rubans, cerceaux et 6 autres objets. Pour chaque objet, je vous montre comment l'utiliser en cours. Seulement 17 $."
     },
     "bump2": {
-      "headline": "Regardez, apprenez et dansez avec bébé en porte-bébé",
-      "pitch": "2 chorégraphies simples à enseigner dans vos cours. Avec bébé en porte-bébé. Seulement 27 $."
+      "headline": "Deux chorégraphies simples à enseigner dans votre cours de danse maman-bébé",
+      "pitch": "2 vidéos, avec bébé en porte-bébé. Regardez, apprenez, puis enseignez-les. Seulement 27 $."
     },
     "kitLine": "Votre premier cours maman-bébé",
     "total": "Total",
@@ -170,12 +170,12 @@
     ],
     "itemsTitle": "Vous recevez",
     "items": [
-      "1 vidéo : comment danser avec bébé en porte-bébé",
-      "1 vidéo : une chorégraphie complète à enseigner"
+      "2 chorégraphies simples à enseigner dans votre cours maman-bébé",
+      "Avec bébé en porte-bébé"
     ],
-    "steps": "Regardez, apprenez, puis enseignez-la.",
+    "steps": "Regardez, apprenez, puis enseignez-les.",
     "price": "27 $ CA",
-    "yes": "Oui, j'ajoute le porte-bébé, 27 $",
+    "yes": "Oui, j'ajoute les 2 chorégraphies, 27 $",
     "yesNote": "En un clic, avec la même carte.",
     "no": "Non merci, je passe"
   },
