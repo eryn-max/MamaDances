@@ -22,6 +22,9 @@ Decisions made after the playbooks were written. When this file disagrees with a
 11. **Domain:** `go.mamadances.com`, set up after onboarding.
 12. **No Vercel work yet.** The code is ready for Vercel, but nothing is created or deployed until Eryn types "deploy".
 
+### Database
+18. **Supabase** (not Neon) for orders and applications. Server only, through `DATABASE_URL`. The publishable key is not used by the funnel. RLS on, no policies.
+
 ### Ads
 13. **Do not target France.** Ad sets: Quebec (FR) and rest of Canada (EN). Prices are CAD only.
 

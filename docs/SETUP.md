@@ -12,7 +12,10 @@ Nothing here is done yet. Do it in order, after Eryn gives access to **her own**
 7. Payment method domains: add `go.mamadances.com` (Apple Pay, Google Pay).
 
 ## 2. Database
-Neon Postgres from the Vercel Marketplace. Run `db/schema.sql` once.
+Supabase Postgres (project already linked to GitHub).
+1. Tables come from `supabase/migrations/`. The GitHub integration applies them, or paste the file once in the SQL editor.
+2. Row level security is on with no policies, so the publishable key cannot read buyer data.
+3. Copy the **Transaction pooler** connection string (Connect button, port 6543) into Vercel as `DATABASE_URL`, type sensitive.
 
 ## 3. Vercel environment variables
 See `.env.example`. Preview uses test keys. Production uses live keys. Never put keys in the repo or chat.

@@ -1,4 +1,5 @@
--- MamaDances funnel database (Postgres). Run once on the new database.
+-- MamaDances funnel database (Supabase Postgres).
+-- Applied by the Supabase GitHub integration, or paste once in the Supabase SQL editor.
 -- Buyer data is for fulfillment only (CLAUDE.md, hard rule 3).
 
 create table if not exists orders (
@@ -35,3 +36,11 @@ create table if not exists applications (
   dates       text,
   status      text not null default 'new'       -- new | good_fit | maybe | not_now | call_booked
 );
+
+-- Buyer data is private. Turn on row level security with NO policies:
+-- the public (publishable/anon) key can read or write nothing here.
+-- Only the server, through DATABASE_URL, can use these tables.
+alter table orders enable row level security;
+alter table applications enable row level security;
+revoke all on orders, applications from anon, authenticated;
+revoke all on sequence applications_id_seq from anon, authenticated;
