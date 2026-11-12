@@ -1,8 +1,6 @@
 {
   "_confirm": [
-    "home.sub: garantie 30 jours (conditions à confirmer avec Eryn)",
     "home.how.steps.0: durée totale des vidéos, moins d'une heure ?",
-    "home.faq.items.2 + thanks: accès par courriel en moins de 24 heures (accès manuel en v1)",
     "home.faq.items.3: langue des vidéos (Operator Playbook 5.1, problème 2)",
     "home.faq.items.5 + thanks.next: crédit de 27 $ sur la certification",
     "season97: offre à 97 $ (désactivée tant qu'Eryn ne dit pas oui)",
@@ -113,7 +111,7 @@
         },
         {
           "q": "Comment je reçois mon cours ?",
-          "a": "Vous recevez un courriel de Kajabi en moins de 24 heures. Vous vous connectez avec le même courriel."
+          "a": "Tout de suite après l'achat, vous recevez un courriel de Kajabi. Vous vous connectez avec le même courriel."
         },
         {
           "q": "C'est en français ou en anglais ?",
@@ -228,7 +226,7 @@
     "lead": "Voici la suite.",
     "steps": [
       "Ouvrez vos courriels. Regardez aussi dans les indésirables.",
-      "Votre accès arrive par courriel en moins de 24 heures.",
+      "Votre accès arrive par courriel tout de suite.",
       "Connectez-vous à Kajabi avec le même courriel.",
       "Regardez la première vidéo aujourd'hui."
     ],
@@ -287,7 +285,7 @@
     "body": [
       "Ces produits sont vendus par MamanDanse / MamaDances, à Montréal, au Québec.",
       "Les prix sont en dollars canadiens.",
-      "Vous recevez votre accès par courriel en moins de 24 heures, dans Kajabi.",
+      "Vous recevez votre accès par courriel tout de suite après l'achat, dans Kajabi.",
       "Satisfaite ou remboursée 30 jours. Écrivez-moi dans les 30 jours suivant votre achat. Je vous rembourse au complet.",
       "Les vidéos et les documents sont pour votre usage personnel. Merci de ne pas les partager.",
       "La certification, le droit d'utiliser la marque MamanDanse et l'adhésion font partie de la formation complète seulement.",

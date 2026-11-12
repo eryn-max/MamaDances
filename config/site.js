@@ -9,8 +9,8 @@ export default {
   // Page 1 video per language (YouTube/Vimeo embed URL or an .mp4 in /assets). [CONFIRM]
   video: { fr: null, en: null },
   // Real files from Eryn. [CONFIRM file]
-  logo: { fr: null, en: null },
-  erynPhoto: null,
+  logo: { fr: "/assets/img/logo-sm.png", en: "/assets/img/logo-sm.png" }, // one bilingual logo
+  erynPhoto: "/assets/img/eryn.jpg",
   kitCover: null,
   // Kajabi login page for the thank-you button. [CONFIRM]
   kajabiLoginUrl: null,

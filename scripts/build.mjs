@@ -4,7 +4,7 @@
 //   STRIPE_PUBLISHABLE_KEY  pk_test_... or pk_live_... from Eryn's Stripe account
 //   META_PIXEL_ID           overrides config/site.js metaPixelId (PageView / InitiateCheckout / Purchase / Lead)
 // On Vercel production builds (VERCEL_ENV=production) the strict launch check must pass.
-import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
+import { mkdirSync, rmSync, writeFileSync, copyFileSync, cpSync } from "node:fs";
 import { dirname } from "node:path";
 import site from "../config/site.js";
 import offersConfig from "../config/offers.js";
@@ -24,6 +24,8 @@ const pk = process.env.STRIPE_PUBLISHABLE_KEY || "";
 if (production) {
   const w = launchWarnings(copy);
   if (!pk.startsWith("pk_live_")) w.push("STRIPE_PUBLISHABLE_KEY must be a pk_live_ key in production.");
+  if (!process.env.KAJABI_GRANT_URL)
+    w.push("The pages promise instant access, so KAJABI_GRANT_URL (automatic Kajabi access) must be set. See docs/DECISIONS.md #10.");
   if (w.length) {
     console.error("Production build blocked. Finish these first:\n  " + w.join("\n  "));
     process.exit(1);
@@ -93,6 +95,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : ""}
 <link rel="alternate" hreflang="en-CA" href="https://${site.domain}${url(page, "en")}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
+${site.erynPhoto ? `<meta property="og:image" content="https://${site.domain}${esc(site.erynPhoto)}">` : ""}
 <meta name="theme-color" content="#795A94">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -380,8 +383,7 @@ write("index.html", home("fr").replace("<head>", "<head>\n" + rootRedirect));
 
 // assets
 mkdirSync(new URL("assets/", out), { recursive: true });
-const assetsDir = new URL("../src/assets/", import.meta.url);
-for (const f of readdirSync(assetsDir)) copyFileSync(new URL(f, assetsDir), new URL("assets/" + f, out));
+cpSync(new URL("../src/assets/", import.meta.url), new URL("assets/", out), { recursive: true });
 copyFileSync(new URL("../lib/flow.js", import.meta.url), new URL("assets/flow.js", out));
 writeFileSync(
   new URL("assets/favicon.svg", out),

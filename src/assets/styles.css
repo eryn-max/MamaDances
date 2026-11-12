@@ -43,10 +43,10 @@ html:not([data-v="b"]) .hb { display: none; }
 
 /* Top bar */
 .topbar { border-bottom: 1px solid var(--line); background: var(--white); position: sticky; top: 0; z-index: 10; }
-.topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 58px; }
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--purple-dark); font: 700 20px var(--head); }
 .logo svg { width: 26px; height: 26px; }
-.logo img { height: 36px; width: auto; }
+.logo img { height: 52px; width: auto; }
 .toggle { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; font: 600 14px var(--head); }
 .toggle a { padding: 6px 12px; text-decoration: none; color: var(--muted); }
 .toggle a[aria-current="true"] { background: var(--purple); color: var(--white); }

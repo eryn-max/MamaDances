@@ -1,8 +1,6 @@
 {
   "_confirm": [
-    "home.sub: 30-day guarantee (terms to confirm with Eryn)",
     "home.how.steps.0: total video runtime, under one hour?",
-    "home.faq.items.2 + thanks: access by email within 24 hours (manual access in v1)",
     "home.faq.items.3: language of the videos (Operator Playbook 5.1, issue 2)",
     "home.faq.items.5 + thanks.next: CA$27 credit toward certification",
     "season97: the CA$97 offer (turned off until Eryn says yes)",
@@ -113,7 +111,7 @@
         },
         {
           "q": "How do I get it?",
-          "a": "You get an email from Kajabi within 24 hours. You log in with the same email."
+          "a": "Right after you buy, you get an email from Kajabi. You log in with the same email."
         },
         {
           "q": "Is it in French or English?",
@@ -228,7 +226,7 @@
     "lead": "Here is what happens now.",
     "steps": [
       "Open your email. Check your spam folder too.",
-      "Your access comes by email within 24 hours.",
+      "Your access comes by email right away.",
       "Log in to Kajabi with the same email.",
       "Watch the first video today."
     ],
@@ -287,7 +285,7 @@
     "body": [
       "These products are sold by MamaDances / MamanDanse, in Montreal, Quebec.",
       "Prices are in Canadian dollars.",
-      "Your access comes by email within 24 hours, in Kajabi.",
+      "Your access comes by email right after you buy, in Kajabi.",
       "30-day money-back guarantee. Write to me within 30 days of your purchase. I will refund you in full.",
       "The videos and documents are for your own use. Please do not share them.",
       "The certificate, the right to use the MamaDances trademark and the membership are part of the full training only.",
