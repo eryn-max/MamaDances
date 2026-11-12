@@ -24,6 +24,7 @@ const pk = process.env.STRIPE_PUBLISHABLE_KEY || "";
 if (production) {
   const w = launchWarnings(copy);
   if (!pk.startsWith("pk_live_")) w.push("STRIPE_PUBLISHABLE_KEY must be a pk_live_ key in production.");
+  if (process.env.META_TEST_EVENT_CODE) w.push("META_TEST_EVENT_CODE must not be set in production (real sales would be marked as tests).");
   if (!process.env.KAJABI_GRANT_URL)
     w.push("The pages promise instant access, so KAJABI_GRANT_URL (automatic Kajabi access) must be set. See docs/DECISIONS.md #10.");
   if (w.length) {
